@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+a{
+    color: #050505;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.clearfix::before,.clearfix::after{
+    display: table;
+    content: "";
+
+}
+input{
+    border: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+header{
+    height: 100px;
+    overflow: hidden;
+}
+nav{
+width: 1366px;
+height: 42px;
+margin: 26px auto;
+}
+.logo{
+    float: left;
+}
+.navbar{
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin-left: 50px;
+}
+.navbar li{
+    float: left;
+    
+}
+.navbar li a{
+    padding: 0 8px;
+   
+    display: block;
+    height: 42px;
+}
+.navbar li a:hover{
+    border-bottom: 2px solid #00a4ff;
+    
+}
+/* 搜索框 */
+。search{
+    width: 410px;
+    height: 38px;
+    border: 1px solid #00a4ff;
+    float: left;
+
+}
+.search input[type=text]{
+/*     background-color: pink; */
+    width: 360px;
+    height: 38px;
+    padding-left: 20px;
+    float: left;
+
+}
+.search input[type=submit]{
+    width: 50px;
+    height: 38px;
+    float: left;
+    background: #00a4ff url(/images/search.png) center center no-repeat;
+}
+.personal{
+    float: left;
+
+}
