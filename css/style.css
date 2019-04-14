@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+/* css初始化 */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
 body{
     background-color: #fff;
 }
@@ -81,7 +86,21 @@ margin: 26px auto;
     float: left;
     background: #00a4ff url(/images/search.png) center center no-repeat;
 }
+/* 搜索框结束，个人中心开始 */
 .personal{
-    float: left;
+    float: right;
+    height: 42px;
+    line-height: 42;
+    margin: 0 15px  0 35px;
+}
+.personal img{
+    margin: 0 8px;
+}
+.banner{
+    height: 420px;
+    background-color: #1c036c;
 
+}
+.banner-in{
+    background-color: pink;
 }
