@@ -102,5 +102,26 @@ margin: 26px auto;
 
 }
 .banner-in{
-    background-color: pink;
+    background: url(/images/img1.jpg) 0 0 no-repeat;
+}
+.sildebar{
+    height: 420px;
+    width: 190px;
+    background-color:rgba( 0, 0, 0, 0.3);
+}
+.sildebar li a{
+    color: #fff;
+   font-size: 14px;
+   padding: 0 24px;
+   /* a是行内元素，需要转换 */
+   display:block;
+  /*  height: 45px; */
+   line-height: 45px;
+}
+.sildebar li a:hover{
+    color: #00a4ff;
+}
+.sildebar a span{
+    float: left;
+    font-family: Arial;
 }
