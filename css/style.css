@@ -37,7 +37,7 @@ header{
     overflow: hidden;
 }
 nav{
-width: 1366px;
+width: 1200px;
 height: 42px;
 margin: 26px auto;
 }
@@ -85,20 +85,32 @@ margin: 26px auto;
     width: 50px;
     height: 38px;
     float: left;
-    background: #00a4ff url(./images/serch.png) center center no-repeat;
+    background: #00a4ff url(../images/serch_06.png) center center no-repeat;
     
 }
 /* 搜索框结束，个人中心开始 */
 .personal{
     float: right;
-    height: 42px;
+    height: 38px;
+    width: 30px;
     line-height: 42;
     margin: 0 15px  0 35px;
+    border: 1px solid pink;
+    position: relative;
 }
 .personal img{
     margin: 0 8px;
 }
-.banner{
+.personal >a{
+    height: 15px;
+    display: block;
+    float: left;
+    color: #050505;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* .banner{
     height: 420px;
     background-color: #1c036c;
 
@@ -115,9 +127,7 @@ margin: 26px auto;
     color: #fff;
    font-size: 14px;
    padding: 0 24px;
-   /* a是行内元素，需要转换 */
    display:block;
-  /*  height: 45px; */
    line-height: 45px;
 }
 .sildebar li a:hover{
@@ -126,4 +136,4 @@ margin: 26px auto;
 .sildebar a span{
     float: left;
     font-family: Arial;
-}
+} */
