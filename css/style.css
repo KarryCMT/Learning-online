@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 body{
-    background-color: #fff;
+    background-color: #f3f5f7;
 }
 a{
     color: #050505;
@@ -78,13 +78,15 @@ margin: 26px auto;
     height: 38px;
     padding-left: 20px;
     float: left;
+    border: 1px solid #00a4ff;
 
 }
 .search input[type=submit]{
     width: 50px;
     height: 38px;
     float: left;
-    background: #00a4ff url(/images/search.png) center center no-repeat;
+    background: #00a4ff url(./images/serch.png) center center no-repeat;
+    
 }
 /* 搜索框结束，个人中心开始 */
 .personal{
