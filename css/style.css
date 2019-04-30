@@ -65,12 +65,12 @@ margin: 26px auto;
     
 }
 /* 搜索框 */
-。search{
+.search {
     width: 410px;
     height: 38px;
-    border: 1px solid #00a4ff;
+   /*  border: 1px solid #00a4ff; */
     float: left;
-
+    margin-left: 10px;
 }
 .search input[type=text]{
 /*     background-color: pink; */
@@ -79,44 +79,32 @@ margin: 26px auto;
     padding-left: 20px;
     float: left;
     border: 1px solid #00a4ff;
-
+    
 }
 .search input[type=submit]{
     width: 50px;
     height: 38px;
     float: left;
     background: #00a4ff url(../images/serch_06.png) center center no-repeat;
-    
 }
 /* 搜索框结束，个人中心开始 */
 .personal{
     float: right;
-    height: 38px;
-    width: 30px;
-    line-height: 42;
-    margin: 0 15px  0 35px;
-    border: 1px solid pink;
-    position: relative;
+    height: 42px;
+    line-height: 42px;   
+    margin: 0 60px  0 35px;/* 上右15下左35 */
 }
-.personal img{
-    margin: 0 8px;
+ .personal img{
+    margin: 0 20px;
 }
-.personal >a{
-    height: 15px;
-    display: block;
-    float: left;
-    color: #050505;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-/* .banner{
+.banner{
     height: 420px;
     background-color: #1c036c;
 
 }
 .banner-in{
-    background: url(/images/img1.jpg) 0 0 no-repeat;
+    height: 420px;
+    background: url(../images/banner_03.png) 0 0 no-repeat;
 }
 .sildebar{
     height: 420px;
@@ -136,4 +124,4 @@ margin: 26px auto;
 .sildebar a span{
     float: left;
     font-family: Arial;
-} */
+}
