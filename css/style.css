@@ -97,31 +97,17 @@ margin: 26px auto;
  .personal img{
     margin: 0 20px;
 }
+
+/* 个人中心结束，左边栏开始*/
 .banner{
     height: 420px;
     background-color: #1c036c;
-
+    
 }
 .banner-in{
-    height: 420px;
-    background: url(../images/banner_03.png) 0 0 no-repeat;
+
+    background: url(/images/banner_03.png) 0 0 no-repeat;
 }
 .sildebar{
-    height: 420px;
-    width: 190px;
-    background-color:rgba( 0, 0, 0, 0.3);
-}
-.sildebar li a{
-    color: #fff;
-   font-size: 14px;
-   padding: 0 24px;
-   display:block;
-   line-height: 45px;
-}
-.sildebar li a:hover{
-    color: #00a4ff;
-}
-.sildebar a span{
-    float: left;
-    font-family: Arial;
+    
 }
