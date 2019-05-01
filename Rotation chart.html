@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+   ul{
+    list-style: none;
+    }
+    .silder{
+        width: 520px;
+        height: 280px;
+        background-color: pink;
+        margin: 50px auto;
+        position: relative;
+    }
+
+    .arrow-left,
+    .arrow-right{
+        position: absolute;
+        top: 50%;
+        width: 32px;
+        height: 32px;
+        display: block;
+        margin-top: -16px;/* 往上走是负值 */
+    }
+    .arrow-right{
+        right: 0;
+    }
+    .arrow-left{
+        left: 0;
+    }
+    .circle{
+        position: absolute;
+        width: 65px;
+        height: 13px;
+        background-color: rgba(255, 255, 255, 0.2);
+        bottom: 15px;
+        left: 50%;
+        margin-left: -32px;    
+        border-radius: 6px;   
+    }
+    
+    .circle li{
+        width: 9px;
+        height: 9px;
+        background-color: #b7b7b7;
+        float: left;
+        margin: 2px;
+        border-radius: 50%;
+    }
+    /* 注意权重问题，优先级   0020*/
+    .circle .current{
+        background-color: #ff4400;
+    }
+    </style>
+</head>
+<body>
+    <div class="silder">
+        <img src="./images/lunbotu2.jpg" alt="">
+        <a href="#"><img src="./images/left.png" class="arrow-left"></a>
+        <a href="#"><img src="./images/right.png" class="arrow-right"></a>
+        <ul class="circle"><!-- 小圆点 -->
+            <li class="current"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>

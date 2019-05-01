@@ -105,9 +105,104 @@ margin: 26px auto;
     
 }
 .banner-in{
-
-    background: url(/images/banner_03.png) 0 0 no-repeat;
+    height: 420px;
+    background: url(../images/banner_03.png) 0 0 no-repeat;
 }
 .sildebar{
+    height: 420px;
+    width: 190px;
+    background: rgba(0,0,0,0.3);
+    float: left;
+}
+.sildebar li a{
+	color: #fff;
+	font-size: 14px;
+	padding: 0 20px;
+    display: block;
+    height: 45px;
+	line-height: 45px;
+}
+.sildebar a span{
+	float: right;
+	font-family: arial;
+}
+.sildebar  li a:hover{
+	color: #00a4ff;
+}
+.timetable{
+    float: right;
+    width: 230px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.timetable dt{
+    height: 50px;
+    line-height: 50px;
+    background-color: #9bceea;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.timetable dd{
+    width: 193px;
+    height: 60px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    padding-top: 12px;
+    box-sizing:border-box;
+}
+.timetable dd:last-child{
+    border:0;
+}
+.timetable dd h4{
+    font-size: 16px;
+    font-weight: normal;
+    color: #4e4e4e;
+}
+.timetable dd p{
+    color: #a5a5a5;
+    font-size: 14px;
+}
+.timetable dd a{
+    display: block;
+    height: 38px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 38px;
+    color: #00a4ff;
+    font-weight: 700;
+}
+.timetable dd a:hover{
+    background-color: #00a4ff;
+    color: #fff;
+}
+
+/* 精品推荐 */
+.recommend{
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    margin-top: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0,0.2 ) /* 盒子阴影  水平位置 垂直位置  模糊距离 */
     
+}
+.recommend a{
+    padding:  0 30px;
+    border-right:1px solid #ccc; 
+}
+.recommend a:hover{
+    color: #00a4ff;
+}
+.recommend a:first-child{
+    color: #00a4ff;
+}
+.recommend a:last-child{
+    color: #00a4ff;
+    border: 0;
+    float:right;
+    font-size: 14px;
+    font-weight: 700;
 }
