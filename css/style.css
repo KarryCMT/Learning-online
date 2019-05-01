@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 body{
-    height: 1500px;
+    height: 2000px;
     background-color: #f3f5f7;
 }
 a{
@@ -126,7 +126,8 @@ margin: 26px auto;
 }
 .sildebar a span{
 	float: right;
-	font-family: arial;
+    font-family: arial;
+    font-weight: 200;
 }
 .sildebar  li a:hover{
 	color: #00a4ff;
@@ -247,6 +248,7 @@ margin: 26px auto;
 }
 .recom-hd a{
     float: right;
+    margin-right: 28px;
     margin-top: 10px;
     font-size: 14px;
     /* color: #00a4ff;*/
@@ -259,6 +261,110 @@ margin: 26px auto;
 .recom-bd ul li{
     width: 228px;
     height: 270px;
-    background-color: pink;
+    background-color: #fff;
     overflow: hidden;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+    position: relative;
+}
+.recom-bd ul li:nth-child(5n){
+   /*  margin: 0; */
+    margin-right: 0;
 } 
+.recom-bd li h5,
+.recom-bd li p{ 
+    padding: 0 20px 0 24px;
+    margin-top: 12px;
+}
+.recom-bd li h5{
+    line-height: 22px;
+    font-weight: normal;
+}
+.recom-bd li span{
+    color: rgb(255, 133, 45);
+}
+
+
+
+
+/* 编程入门 */
+.recom-bt{
+    margin-top: 600px;
+    height: 40px;
+    line-height: 40px;
+    /* background-color: pink;  */
+    position: relative;
+}
+.recom-bt h4{
+    float: left;
+    color: #494949;
+    
+}
+.recom-bt ul{
+   /*  position: relative; */
+    /* left: 50%;
+    margin-left:-75px;  */
+    text-align: center;
+}
+.recom-bt ul li{
+    width: 70px;
+    height: 40px;
+    display: inline-block;
+    margin: 0 16px;
+    /* float: left; */ 
+}
+.recom-bt ul li:nth-child(1){
+    color: #00a4ff;
+}
+
+.recom-bt  a{
+   
+   position: absolute;
+   right: 0;
+   top: 0;
+   margin-right: 28px;
+    font-size: 14px;
+    color: #a5a5a5;
+}
+.recom-bt a:hover{
+    color: #00a4ff;
+}
+
+.recom-bc{
+    /* width: 1200px; */
+    height: 393px;
+   /*  background-color:pink; */
+    position: relative;
+}
+.remcom-bc-img1{
+    width: 227px;
+    
+    position: relative;
+}
+.remcom-bc-img1 h4{
+    position: absolute;
+    color: #fff;
+    left: 38px;
+    top: 47px; 
+   /*  padding: 0 0 78px 36px; */
+    margin-top: 12px;
+    
+}
+.remcom-bc-img1 h4:nth-child(2){
+    position: absolute;
+    color: #fff;
+    left: 38px;
+    top: 80px; 
+   /*  padding: 0 0 78px 36px; */
+    margin-top: 12px;
+    
+}
+.remcom-bc-img2{   
+    height: 80px;
+   /*  background-color: red; */
+    position: absolute;
+    right: 0;
+    top: 0;
+}
