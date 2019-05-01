@@ -8,6 +8,7 @@
     margin: 0 auto;
 }
 body{
+    height: 1500px;
     background-color: #f3f5f7;
 }
 a{
@@ -254,3 +255,10 @@ margin: 26px auto;
 .recom-hd a:hover{
     color: #00a4ff;
 }
+
+.recom-bd ul li{
+    width: 228px;
+    height: 270px;
+    background-color: pink;
+    overflow: hidden;
+} 
