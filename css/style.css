@@ -43,7 +43,11 @@ height: 42px;
 margin: 26px auto;
 }
 .logo{
+    width: 197px;
+    height: 42px;
     float: left;
+    background: url(../images/sprite.png) no-repeat;
+    background-position: 0 0;
 }
 .navbar{
     float: left;
@@ -94,9 +98,11 @@ margin: 26px auto;
     height: 42px;
     line-height: 42px;   
     margin: 0 60px  0 35px;/* 上右15下左35 */
+
 }
  .personal img{
     margin: 0 20px;
+    vertical-align: middle;/* 中线对齐 */
 }
 
 /* 个人中心结束，左边栏开始*/
@@ -200,6 +206,7 @@ margin: 26px auto;
     border-radius: 50%;
     float: left;
     margin: 6px 8px;
+    cursor: pointer;
     
 }
 .circle .current{
@@ -341,6 +348,7 @@ margin: 26px auto;
    /*  background-color:pink; */
     position: relative;
     margin-top: 22px;
+    
 }
 
 
@@ -395,30 +403,41 @@ margin: 26px auto;
     right: 0;
     top: 0;
 }
-.remcom-bc-ul{
-    width: 957px;
-    height: 282px;
-    background-color: pink;
+
+.recom-bc-ul{    
+    top: 107px;
+    left: 240px;
     position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 110px;
 }
-.remcom-bc-ul ul li{
+.recom-bc-ul ul{
+    width: 1000px;
+    margin-left: 5px;
+}
+.recom-bc-ul ul li{
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     float: left;
-    display: inline-block;
-    overflow: hidden;  
+    margin-right: 14px;
+    margin-top: 15px;
 }
-.remcom-bc-ul li:nth-child(2n){
-    margin-left: 10px;
-}
-.remcom-bc-ul li p,
-.recom-bc-ul li h5
-{   
+
+.recom-bc-ul li h5,
+.recom-bc-ul li p{ 
     padding: 0 20px 0 24px;
     margin-top: 12px;
+}
+.recom-bc-ul li h5{
+    line-height: 22px;
     font-weight: normal;
 }
+.recom-bc-ul li span{
+    color: rgb(255, 133, 45);
+}
+
+
 
 
 
