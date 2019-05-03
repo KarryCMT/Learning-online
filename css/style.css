@@ -265,19 +265,20 @@ margin: 26px auto;
 .recom-hd a:hover{
     color: #00a4ff;
 }
-
+.hot_overflow{
+    overflow: hidden;
+}
 .recom-bd ul li{
     width: 228px;
     height: 270px;
-    background-color: #fff;
-    /* overflow: hidden; */
-    /* box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); */
+    background-color: #fff; 
     float: left;
     margin-right: 15px;
     margin-top: 15px;
     position: relative;
     
 }
+
 .recom-bd ul li:hover{
     margin-top: 10px;
     transition: all 0.5s;
