@@ -183,6 +183,7 @@ margin: 26px auto;
     line-height: 38px;
     color: #00a4ff;
     font-weight: 700;
+    transition: all 1s;
 }
 .timetable dd a:hover{
     background-color: #00a4ff;
@@ -269,12 +270,28 @@ margin: 26px auto;
     width: 228px;
     height: 270px;
     background-color: #fff;
-    overflow: hidden;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    /* overflow: hidden; */
+    /* box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); */
     float: left;
     margin-right: 15px;
     margin-top: 15px;
     position: relative;
+    
+}
+.recom-bd ul li:hover{
+    margin-top: 10px;
+    transition: all 0.5s;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+.hot{
+    width: 40px;
+    height: 24px;
+    background-color: pink;
+    position:absolute;
+    right: -4px;
+    top: 7px;
+    background: url(../images/sprite.png) no-repeat;
+    background-position: 0 -138px;
 }
 .recom-bd ul li:nth-child(5n){
    /*  margin: 0; */
@@ -322,6 +339,7 @@ margin: 26px auto;
     margin: 0 16px;
     /* float: left; */ 
 }
+
 .recom-bt ul li:nth-child(1){
     color: #00a4ff;
 }
@@ -359,6 +377,8 @@ margin: 26px auto;
     height: 392px; 
     background: url(../images/biancheng1_03.png)0 0 no-repeat; 
     position: relative;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+
 }
 .remcom-bc-left h4{
     position: absolute;
@@ -374,24 +394,20 @@ margin: 26px auto;
     top: 80px; 
     
 }
-.remcom-bc-left .remcom-bc-h5one{
+.remcom-bc-left .remcom-bc-h5one,
+.remcom-bc-left .remcom-bc-h5two,
+.remcom-bc-left .remcom-bc-h5three
+{
     position: absolute;
     color: #fff;
     left: 38px;
     top: 130px; 
-
 }
 .remcom-bc-left .remcom-bc-h5two{
-    position: absolute;
-    color: #fff;
-    left: 38px;
     top: 230px; 
     
 }
 .remcom-bc-left .remcom-bc-h5three{
-    position: absolute;
-    color: #fff;
-    left: 38px;
     top: 330px; 
     
 } 
@@ -402,6 +418,8 @@ margin: 26px auto;
     position: absolute;
     right: 0;
     top: 0;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+
 }
 
 .recom-bc-ul{    
@@ -418,12 +436,17 @@ margin: 26px auto;
     height: 270px;
     background-color: #fff;
     overflow: hidden;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); */
     float: left;
     margin-right: 14px;
     margin-top: 15px;
 }
+.recom-bc-ul ul li:hover{
+    margin-top: 10px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
 
+}
 .recom-bc-ul li h5,
 .recom-bc-ul li p{ 
     padding: 0 20px 0 24px;
@@ -474,6 +497,7 @@ footer{
     color: #00a4ff;
     margin-top: 15px;
     font-size: 16px;
+    transition: all 1s;
 }
 .footer-l a:hover{
     background-color: #00a4ff;
