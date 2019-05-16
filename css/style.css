@@ -43,11 +43,8 @@ height: 42px;
 margin: 26px auto;
 }
 .logo{
-    width: 197px;
-    height: 42px;
+    margin-top: -16px;
     float: left;
-    background: url(../images/sprite.png) no-repeat;
-    background-position: 0 0;
 }
 .navbar{
     float: left;
