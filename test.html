@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+ 
+<head>
+<meta charset="UTF-8">
+<title>测试</title>
+    <style>
+iframe{
+display: block;
+margin: 0 auto;
+margin-top: 100px; 
+}
+</style>
+<script>
+    function tz(){
+        window.location.href='https://www.baidu.com/';
+            }
+</script>
+ 
+</head>
+ 
+<body> 
+
+        <input type="text" id="text1" name="data" value="">   
+        <input type="button" id="but" value="百度一下">    
+        <script>
+                var but = document.getElementById('but');
+                but.onclick = function(){
+                var text1 = document.getElementById('text1').value;
+                if (text1) {
+                var url = 'http://www.baidu.com/s?wd=' + text1;
+                var button = document.getElementsByTagName('button')[0];
+                button.setAttribute('src',url);
+                }else{
+                alert('请输入内容');
+                }
+                };
+            </script>
+
+      
+
+<!-- <iframe src="https://www.baidu.com/" width="80%" height="300" frameborder="1" scrolling="yes"></iframe> -->
+</body>
+</html>
